@@ -1,6 +1,6 @@
-# Aurora Initiative — website
+# Northern Light Initiative — website
 
-Static site for the Aurora Initiative (working name), a cross-institutional high-z research initiative of the University of Toronto and York University. Built with [Astro](https://astro.build), deploys to GitHub Pages.
+Static site for the Northern Light Initiative (formerly the Aurora Initiative working name), a cross-institutional high-z research initiative of the University of Toronto and York University. Built with [Astro](https://astro.build), deploys to GitHub Pages.
 
 See `STRATEGY.md` (in this folder) for the full design and content strategy and the peer-institute benchmark behind it.
 
@@ -39,7 +39,7 @@ npm run preview    # serve the production build locally
 ## Deploy to GitHub Pages
 
 1. Push `site/` to a repo (or move it to the repo root).
-2. In `astro.config.mjs`, set `site` and, for a project page, `base: '/<repo>'`. For a custom domain at the root, set `site: 'https://aurorainstitute.ca'` and leave `base` unset.
+2. In `astro.config.mjs`, set `site` and, for a project page, `base: '/<repo>'`. For a custom domain at the root, set `site` to the custom domain and leave `base` unset.
 3. Add a GitHub Actions workflow (Astro's official `withastro/action`) or push `dist/` to the `gh-pages` branch.
 4. For a custom domain, add a `CNAME` file in `public/` and point DNS at GitHub Pages.
 
@@ -51,16 +51,15 @@ Done (verified):
 - `src/data/news.json`: four recent member preprints with arXiv links, each verified to resolve.
 - `src/data/collaborators.json`: a 14-city draft network based on members' collaborations.
 - `src/data/fellowships.json`: from the vision doc; verified links.
-- Contact: interim `seiji.fujimoto@utoronto.ca` (in `Footer.astro` and `programs.astro`). Switch to `info@aurorainstitute.ca` once the domain is registered.
+- Contact: interim `seiji.fujimoto@utoronto.ca` (in `Footer.astro` and `programs.astro`). Switch to an initiative address once a domain is registered.
 - Visitor program: concrete pilot terms (draft, pending Dunlap Blue-Sky funding) on `programs.astro`.
 
 Still to do:
 - Headshots: currently hotlinked from official pages with a graceful fallback to initials. For production, download them to `public/people/` (with each member's consent) and point `photo` at the local path. A few members have no public headshot yet (initials shown).
-- Hero image / clip: still the SVG aurora motif. Replace with a VENUS image or short clip (our own imagery, not NASA stock).
-- News: curate and add institute news (fellow arrivals, talks, awards) as Aurora launches.
+- News: curate and add institute news (fellow arrivals, talks, awards) as Northern Light launches.
 - Collaborator map: confirm/curate the real partner list; optionally upgrade the static SVG map to Leaflet + OpenStreetMap.
-- Domain: staying on `*.github.io` for now. `aurorainstitute.ca` and `aurora-institute.ca` are available if/when you want a custom domain. Note: `aurora-institute.org` belongs to a US education nonprofit (now redirecting to Full Scale Learning), so the name collides in web search but not in astronomy.
-- Logo: concept 1 ("Aurora curtain A") in `components/Logo.astro` and `public/favicon.svg`. Swap when the final mark is chosen.
+- Domain: staying on `*.github.io` for now; check `northernlight.ca`-style domains if/when you want a custom one. Note: `the previous working-name domains were not registered; itute.org` belongs to a US education nonprofit (now redirecting to Full Scale Learning), so the name collides in web search but not in astronomy.
+- Logo: the trinerise rise-line mark (vote 36), with the CN tower on the I of LIGHT in the wordmark; sources in `northlight_logo/v4/`.
 
 ## Upgrade paths (deferred)
 

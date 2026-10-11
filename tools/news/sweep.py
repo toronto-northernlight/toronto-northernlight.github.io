@@ -26,7 +26,7 @@ import unicodedata
 import urllib.parse
 import urllib.request
 
-UA = {"User-Agent": "aurora-news-sweep/1.1 (+https://toronto-aurora.github.io)"}
+UA = {"User-Agent": "northernlight-news-sweep/1.2 (+https://toronto-northernlight.github.io)"}
 
 # arXiv given-name variants that differ from team.json, and canonical middle initials.
 # Add new members here when their arXiv name differs from the website name.
@@ -347,7 +347,7 @@ def sweep(members, start, end, log=print, students=None):
 
 if __name__ == "__main__":
     team = json.load(urllib.request.urlopen(urllib.request.Request(
-        "https://raw.githubusercontent.com/Toronto-Aurora/toronto-aurora.github.io/main/site/src/data/team.json", headers=UA), timeout=60))
+        "https://raw.githubusercontent.com/toronto-northernlight/toronto-northernlight.github.io/main/site/src/data/team.json", headers=UA), timeout=60))
     names = [m["name"] for t in team["tiers"] for m in t.get("members", [])]
     out = sweep(names, sys.argv[1], sys.argv[2], students=student_supervisors(team))
     if len(sys.argv) > 3:

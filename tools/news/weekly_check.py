@@ -47,7 +47,7 @@ import sweep as sw  # noqa: E402
 HOME = Path.home()
 STATE_DIR = HOME / ".local/share/aurora_news"
 CONFIG = STATE_DIR / "config.json"
-RAW = "https://raw.githubusercontent.com/Toronto-Aurora/toronto-aurora.github.io/main/site/src/data/"
+RAW = "https://raw.githubusercontent.com/toronto-northernlight/toronto-northernlight.github.io/main/site/src/data/"
 UA = sw.UA
 LOOKBACK_DAYS = 35  # arXiv can hold a submission for weeks before announcing it
 SURVEY_LEAD = {"VENUS": "Seiji Fujimoto", "MINERVA": "Adam Muzzin"}

@@ -1,4 +1,4 @@
-# tools/news: weekly check for the "Recent papers" page
+# tools/news: weekly check for the "Recent papers" page (Northern Light site)
 
 Stage 1 runs every Monday 07:30 (Toronto) from launchd and needs no LLM. It searches
 arXiv for papers where a member listed in `site/src/data/team.json` is first or second

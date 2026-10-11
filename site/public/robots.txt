@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://toronto-aurora.github.io/sitemap.xml
+Sitemap: https://toronto-northernlight.github.io/sitemap.xml

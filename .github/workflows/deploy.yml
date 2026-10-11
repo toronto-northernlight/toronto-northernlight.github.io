@@ -1,4 +1,4 @@
-name: Deploy Aurora site to GitHub Pages
+name: Deploy Northern Light site to GitHub Pages
 
 on:
   push:
