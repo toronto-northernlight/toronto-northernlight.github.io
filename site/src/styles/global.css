@@ -278,6 +278,7 @@ img { max-width: 100%; display: block; }
 .tier { margin-top: 44px; }
 .tier > h2 { font-size: 22px; }
 .tier > p { color: var(--ink-2); font-size: 15px; margin: 6px 0 0; }
+.mission-head .section-head p { text-align: justify; hyphens: auto; }
 .people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-top: 20px; }
 .pcard { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: flex; flex-direction: column; transition: transform .15s, box-shadow .15s; }
 .pcard:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(20, 33, 73, .1); }
