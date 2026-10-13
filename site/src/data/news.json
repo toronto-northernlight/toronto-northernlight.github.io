@@ -155,6 +155,24 @@
     {
       "type": "paper",
       "date": "2026-07",
+      "person": "Will McClymont",
+      "title": "Globular cluster abundance patterns inherited from giant molecular clouds",
+      "blurb": "Cosmological radiation-hydrodynamic simulations identify giant molecular clouds whose light-element abundance spreads and nitrogen-oxygen anticorrelations at nearly constant iron abundance reproduce key globular cluster signatures, suggesting such patterns can be inherited at birth without requiring extended in-cluster star formation.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2607.05509/abstract",
+      "figure": "/news/mcclymont-globulars.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-07",
+      "person": "Suresh Sivanandam",
+      "title": "LUVCam: a high-performance, low-cost, UV/optical camera for the future of astronomy in space",
+      "blurb": "LUVCam packages a commercial off-the-shelf CMOS sensor with custom electronics into a low-cost, ITAR-free UV/optical camera that has been on orbit since July 2024, has reached Technology Readiness Level 7, and will supply both QUVIK focal plane cameras.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2607.28831/abstract",
+      "figure": "/news/sivanandam-luvcam.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-07",
       "person": "Yoshihisa Asada",
       "survey": "VENUS",
       "title": "VENUS: an ultra-faint galaxy hosting the metal-poor Type II supernova at z = 5.13",
@@ -174,6 +192,92 @@
     {
       "type": "paper",
       "date": "2026-06",
+      "person": "Maya Merchant",
+      "title": "CANUCS/Technicolor Data Release 2: a catalogue of galaxy structural parameters in up to 29 HST+JWST bands",
+      "blurb": "Alongside structural parameters for about 41,000 galaxies in up to 29 JWST+HST filters, GALFIT fits of about 4,100 star-forming galaxies at 0.6 < z ≤ 4 show a wavelength-dependent size-mass slope with a crossover at log(M*/M☉) ≈ 9.5.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.13781/abstract",
+      "figure": "/news/merchant-sizes.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
+      "person": "Shaunak Modak",
+      "venue": "ApJL",
+      "title": "An analytic model for stellar metallicity gradient residuals in cold, phase-mixed galactic disks",
+      "blurb": "Applied to Galactic thin-disk stars, a closed-form model of metallicity-gradient residuals in a cold, phase-mixed disk gives a root-mean-square radial migration of ≈ 2.79 ± 0.07 kpc for 6-Gyr-old stars, consistent with more complex numerical frameworks.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.14850/abstract",
+      "figure": "/news/modak-residuals.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
+      "person": "Adam Muzzin",
+      "venue": "ApJ",
+      "title": "Metal-poor gas accretion drives giant clump formation at 0.6 < z < 2.6",
+      "blurb": "LEGA-C, MOSDEF and CANUCS spectra of about 300 star-forming galaxies at 0.6 < z < 2.6 show that clumpy galaxies generally lie below the mass-metallicity relation, suggesting their clumpiness is linked to metal-poor gas accretion.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.05284/abstract",
+      "figure": "/news/muzzin-metalpoor.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
+      "person": "Adam Muzzin",
+      "title": "A population of red galaxies with very strong emission lines at z > 5 revealed by the NIRCam medium bands",
+      "blurb": "Medium-band NIRCam imaging from CANUCS, Technicolor and JUMPS identifies 26 red galaxies with strong emission lines at 4.9 ≲ z ≲ 8.9, including compact sources that fail classic selection criteria but are likely Little Red Dots.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.06585/abstract",
+      "figure": "/news/muzzin-redlines.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
+      "person": "Will McClymont",
+      "title": "From THESAN-ZOOM to JWST: predicting ionizing photon escape and the rise of UV-bright reionization sources",
+      "blurb": "Combining THESAN-ZOOM predictions of ionizing photon escape rates for more than 35,000 simulated galaxies with observed UV luminosity functions suggests the bulk of reionization occurred rapidly after z ≈ 8, driven by galaxies brighter than absolute UV magnitude −17.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.14671/abstract",
+      "figure": "/news/mcclymont-thesanzoom.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
+      "person": "Ting Li",
+      "title": "Joint modeling of GD-1 and C-19 as old streams",
+      "blurb": "Simulated GD-1 and C-19 streams evolved for 13 Gyr among cold dark matter subhalos best match the DESI velocity widths on average, with large scatter, while 5.5 keV warm dark matter subhalos typically fail to heat them enough.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.15863/abstract",
+      "figure": "/news/li-gd1c19.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
+      "person": "Adam Muzzin",
+      "title": "Resolved ages and stellar metallicities in progenitors of Milky Way analogs: a closer look at their star formation histories since z = 5",
+      "blurb": "Spatially resolved SED fitting of 872 Milky Way analog progenitors up to z = 5 in CANUCS finds non-merger age and sSFR gradients consistent with inside-out assembly, which major mergers appear to disrupt only momentarily.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.21651/abstract",
+      "figure": "/news/muzzin-mwa.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
+      "person": "Adam Muzzin",
+      "venue": "ApJ",
+      "title": "Cluster vs field: clear evidence for a morphology-density relation in all environments at z ∼ 1.6",
+      "blurb": "Among 111 galaxies in three SpARCS clusters and 458 in the 3D-HST field at z ≈ 1.6, the bulge-like fraction rises and the disk-like fraction falls with local density, suggesting the morphology-density relation may be independent of global environment.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.26252/abstract",
+      "figure": "/news/muzzin-morphdensity.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
+      "person": "Adam Muzzin",
+      "venue": "ApJL",
+      "survey": "MINERVA",
+      "title": "Toward unbreaking the universe: MINERVA measurements of color gradients in massive quiescent galaxies can help ease too-early star formation tensions",
+      "blurb": "MINERVA medium-band photometry of four massive quiescent galaxies at z > 3 shows negative color gradients in three, which, if purely age-driven, would ease tensions with extreme value statistics models out to z ≈ 9.5, though modeling choices also matter.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2606.02698/abstract",
+      "figure": "/news/muzzin-colorgrad.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-06",
       "person": "Chloe Cheng",
       "venue": "A&A",
       "title": "Clues to inside-out quenching in quiescent galaxies at 1.2 ≲ z ≲ 2.2: age, Fe-, and Mg-abundance gradients from JWST-SUSPENSE",
@@ -183,12 +287,366 @@
     },
     {
       "type": "paper",
+      "date": "2026-05",
+      "person": "Shaunak Modak",
+      "title": "Interstellar medium-driven orbital transport – I. Radial heating and migration",
+      "blurb": "Following test-particle orbits through TIGRESS-NCR simulations of a Milky-Way-like interstellar medium, the study finds radial heating that departs from the classic t^1/3 prediction and ISM-driven migration accounting for ≳30% of that observed in the solar neighborhood.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2605.21579/abstract",
+      "figure": "/news/modak-ismorbits.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-05",
+      "person": "Adit Harin Edward",
+      "title": "MAGAZ3NE: spatially resolved ages and chemical abundances of ultra-massive quiescent galaxies at z ∼ 3.5 using JWST/NIRSpec IFU",
+      "blurb": "JWST/NIRSpec IFU spectroscopy of three ultra-massive, compact quiescent galaxies at z ≈ 3.5 finds young (≈0.6–0.7 Gyr), α-enhanced cores, while two show gradients consistent with rapid merger-driven quenching and the third a flat age profile indicative of uniform quenching.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2605.27555/abstract",
+      "figure": "/news/edward-magaz3ne.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-05",
+      "person": "Josh Speagle",
+      "title": "On the correlation between globular clusters and the distribution of dark matter in galaxy clusters: the case of Abell 2744",
+      "blurb": "In Abell 2744, globular cluster positions modelled as an inhomogeneous Poisson process correlate more closely with predicted mass maps than any other galactic component (Spearman coefficients above 0.7), and bright blue clusters are compatible with the weak-lensing-only mass map.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2605.20352/abstract",
+      "figure": "/news/speagle-a2744gc.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-05",
+      "person": "Rahul Kannan",
+      "title": "A framework for modelling Population III stars in cosmological simulations",
+      "blurb": "In AREPO-RT simulations with enhanced thermochemistry, MESA-based spectra and supernova feedback, Pop III stars form from z > 13 until z ≈ 5, and their high-energy radiation is needed to explain high-equivalent-width HeII emission from a z ≈ 11 galaxy.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2605.26206/abstract",
+      "figure": "/news/kannan-popiii.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-04",
+      "person": "Ting Li",
+      "title": "Characterizing the GD-1 stream with DESI DR2 data: thin stream and hot cocoon",
+      "blurb": "Using 608 spectroscopically confirmed GD-1 members from DESI, a Gaussian mixture model separates a cold thin stream from a hot cocoon whose velocity dispersion is consistent with about 11 Gyr of heating by cold dark matter subhalos.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2604.20958/abstract",
+      "figure": "/news/li-gd1.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-04",
+      "person": "Josh Speagle",
+      "venue": "ApJ",
+      "title": "Homogeneous stellar parameters from heterogeneous spectra with deep learning",
+      "blurb": "A single Transformer trained across APOGEE DR17, GALAH DR3, DESI DR1, and Gaia RVS DR3 spectra yields atmospheric parameters, abundances for 20 elements, distances, and ages on one scale, with labels for stars shared between surveys consistent within model uncertainties.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2604.25786/abstract",
+      "figure": "/news/speagle-transformer.jpg"
+    },
+    {
+      "type": "paper",
       "date": "2026-04",
       "person": "Pratika Dayal",
       "title": "Light, heavy, primordial: exploring the diversity of black hole seeding and growth mechanisms in the JWST era",
       "blurb": "A unified comparison of light, heavy, and primordial black hole seeding and growth channels against the JWST census of early massive black holes, including the over-massive systems found in metal-poor hosts.",
       "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2604.20966/abstract",
       "figure": "/news/dayal-seeds.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-03",
+      "person": "Jacqueline Antwi-Danso",
+      "title": "A spectral atlas for quiescent galaxies",
+      "blurb": "A JWST-era look-up table collates rest-frame optical to near-infrared spectral features of quiescent galaxies by physical origin, flagging whether each line is most sensitive to age, metallicity, surface gravity, α-enhancement, electron temperature or gas density.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2603.13479/abstract",
+      "figure": "/news/antwi-danso-atlas.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-02",
+      "person": "Qinyue Fei",
+      "venue": "ApJ",
+      "title": "Direct pathway to the early supermassive black holes: a red super-Eddington quasar in a massive starburst host at z = 7.2",
+      "blurb": "JWST and NOEMA observations show GNz7q at z = 7.19 is a red super-Eddington quasar in a dusty starburst host forming about 330 M⊙ per year, a rare phase that may offer a direct route to early supermassive black holes.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2602.12325/abstract",
+      "figure": "/news/fei-gnz7q.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-02",
+      "person": "Jonah Gannon",
+      "venue": "MNRAS",
+      "title": "MATLAS-42, a globular cluster-rich ultra-diffuse galaxy that diverges from the “failed galaxy” formation pathway",
+      "blurb": "Keck spectroscopy of the gas-rich, globular cluster-rich group ultra-diffuse galaxy MATLAS-42 finds a young mass-weighted age of 3.2 Gyr and [M/H] ≈ −1.19 dex, suggesting it recently rejuvenated its star formation rather than following the “failed galaxy” pathway.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2602.18046/abstract",
+      "figure": "/news/gannon-matlas42.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-02",
+      "person": "Jonah Gannon",
+      "title": "The Dawes Review 14: a decade of ultra-diffuse galaxies",
+      "blurb": "A review of the ten years since ultra-diffuse galaxies were discovered in the Coma cluster, focusing on quiescent UDGs and their general properties, proposed formation scenarios, internal properties and globular cluster systems.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2602.21875/abstract",
+      "figure": "/news/gannon-dawes.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-02",
+      "person": "J. Richard Bond",
+      "venue": "JCAP",
+      "title": "The Atacama Cosmology Telescope: constraints on local non-Gaussianity from the ACT cluster catalog",
+      "blurb": "Modeling the number counts of 1,201 clusters in the ACT DR6 Sunyaev–Zel'dovich catalog over 10,347 deg² yields local-type fNL = 55 ± 125 (68% CL), consistent with Gaussian initial conditions on comoving scales of 5–10 Mpc h⁻¹.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2602.03917/abstract",
+      "figure": "/news/bond-fnl.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-02",
+      "person": "Ting Li",
+      "title": "A chemodynamical census of the Milky Way's ultra-faint compact satellites",
+      "blurb": "Spectroscopy of 19 ultra-faint compact satellites, about 2/3 of the known population, finds them kinematically colder on average than ultra-faint dwarfs and allows the possibility that up to 9 of 19 may be the least-massive galaxies yet discovered.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2602.17652/abstract",
+      "figure": "/news/li-ufcs.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-02",
+      "person": "Peter Martin",
+      "venue": "ApJS",
+      "title": "Assessing Zeeman measurements of magnetic fields in synthetic HI observations",
+      "blurb": "Synthetic HI Zeeman spectra from MHD simulations and idealized clouds show that two methods recover line-of-sight magnetic fields with relative errors of up to 16% and about 13% at typical noise, and FAST data confirm the previously reported L1544 field.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2602.18713/abstract",
+      "figure": "/news/martin-zeeman.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-01",
+      "person": "Yoshihisa Asada",
+      "venue": "ApJL",
+      "title": "Origins of the UV continuum and Balmer emission lines in Little Red Dots: observational validation of dense gas envelope models enshrouding the AGN",
+      "blurb": "Narrow and broad Hα in 27 spectroscopically confirmed Little Red Dots at 5 < z < 7.2 correlate tightly with the UV continuum, consistent with both arising mainly from young massive stars around a dense envelope enshrouding the black hole.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2601.10573/abstract",
+      "figure": "/news/asada-lrdhalpha.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-01",
+      "person": "Yoshihisa Asada",
+      "title": "GLIMPSE-DDT spectroscopic properties of faint-end galaxies at z ∼ 6: towards first metal enrichment, dust production, and ionizing photon production",
+      "blurb": "JWST spectra of 16 galaxies fainter than absolute UV magnitude −17 in the Abell S1063 lensing field show relatively strong [OIII] in all, indicating the mass-metallicity relation extends down to about 10⁶ solar masses at z ≈ 6.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2601.20045/abstract",
+      "figure": "/news/asada-mzr.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2026-01",
+      "person": "Seiji Fujimoto",
+      "survey": "VENUS",
+      "title": "VENUS: two faint Little Red Dots separated by ∼70 pc hidden in a single lensed galaxy at z ∼ 7",
+      "blurb": "JWST VENUS imaging finds two faint Little Red Dots about 70 pc apart and off-center in a lensed z ≈ 7 star-forming galaxy that would show no apparent LRD signatures without lensing, suggesting such LRDs may be commonly hidden.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2601.06015/abstract",
+      "figure": "/news/fujimoto-redeyes.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-12",
+      "person": "Jacqueline Antwi-Danso",
+      "title": "An ancient descendant of the first galaxies",
+      "blurb": "The Sleeper, a z = 5.95 galaxy whose star formation history indicates rapid assembly in the first 300 Myr and later suppression, has a Balmer break about 3 times stronger than any other observed in the first billion years.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.03154/abstract",
+      "figure": "/news/antwi-danso-sleeper.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-12",
+      "person": "Changhyun Cho",
+      "venue": "ApJ",
+      "title": "Danger zone: establishing buffers for enhanced classification in BPT diagrams",
+      "blurb": "Training the unsupervised UMAP algorithm on consistently classified spectra among about 1.3 million MaNGA spectra from 6,439 galaxies, the study classifies the ≈10% that change class between BPT diagrams and delineates the boundary zones where such ambiguities arise.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.07975/abstract",
+      "figure": "/news/cho-dangerzone.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-12",
+      "person": "Seiji Fujimoto",
+      "title": "GLIMPSE-D: an exotic Balmer-jump object at z = 6.20? Revisiting photometric selection and the cosmic abundance of Pop III galaxies",
+      "blurb": "Deep JWST/NIRSpec spectroscopy of the z ≈ 6 Pop III candidate GLIMPSE-16043 reveals clear [OIII] emission, ruling out zero metallicity, yet its spectral energy distribution requires a Balmer jump too strong for current stellar-plus-nebular or pure nebular photoionization models.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.11790/abstract",
+      "figure": "/news/fujimoto-balmerjump.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-12",
+      "person": "Saiyang Zhang",
+      "venue": "ApJL",
+      "title": "Primordial black holes as seeds for extremely overmassive AGN observed by JWST",
+      "blurb": "High-resolution cosmological simulations with a 5 × 10⁷ M☉ primordial black hole seed yield accretion rates of about 1–10% Eddington, metallicities Z/Z☉ ≲ 10⁻², and extreme black-hole-to-stellar mass ratios, consistent with the JWST-observed Abell 2744-QSO1 at z ≈ 7.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.14066/abstract",
+      "figure": "/news/zhang-pbhseeds.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-12",
+      "person": "Ava Polzin",
+      "title": "Picture an Astronomer: best practices for retaining talent in astrophysics",
+      "blurb": "Women in astrophysics face disproportionate attrition at every career stage, and this white paper, drawn from a March 2025 hybrid symposium of more than 200 astronomers, offers retention recommendations that would support a healthier climate for all scientists.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.24465/abstract",
+      "figure": "/news/polzin-astronomer.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-12",
+      "person": "Christian Jespersen",
+      "venue": "ApJ",
+      "title": "Exploring cosmic dawn with PANORAMIC II: cosmic variance and galaxy clustering at z ∼ 10",
+      "blurb": "Across 34 independent PANORAMIC and legacy NIRCam sightlines, z ≈ 10 galaxies show a cosmic variance of 0.96 to 1.71 per pointing as the UV cut brightens, which together with the luminosity function tentatively disfavors globally enhanced star formation efficiency.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.14212/abstract",
+      "figure": "/news/jespersen-clustering.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-11",
+      "person": "Jonah Gannon",
+      "venue": "MNRAS",
+      "title": "Ultra-diffuse, ultra-different: observed vs. simulated ultra-diffuse galaxies live in fundamentally different halos",
+      "blurb": "Matching ultra-diffuse galaxies with spectroscopic dynamical masses to NIHAO and HESTIA halos reproduces their inner dynamics but not the massive halos implied by globular cluster counts, suggesting their dark matter profiles may differ fundamentally from simulated ones.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2511.04006/abstract",
+      "figure": "/news/gannon-udgs.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-11",
+      "person": "Josh Speagle",
+      "title": "Data-driven stellar spectral modelling with GSPICE",
+      "blurb": "Treating an ensemble of spectra as a multivariate Gaussian, GSPICE estimates each pixel's expected flux and variance from the other pixels and, applied to 3.9 million LAMOST stellar spectra, can identify and correct cosmic-ray hits and wavelength-calibration errors.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2511.16754/abstract",
+      "figure": "/news/speagle-gspice.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-11",
+      "person": "Seiji Fujimoto",
+      "survey": "VENUS",
+      "title": "VENUS: a strongly lensed clumpy galaxy at z ∼ 11–12 behind the galaxy cluster MACS J0257.1-2325",
+      "blurb": "The Misty Moons, a lensed galaxy at z ≈ 11–12 behind MACS J0257.1-2325, resolves into roughly 10⁷ M☉ stellar clumps with effective radii of about 10–70 pc that hold ≳80% of its stellar mass, suggesting highly clustered early star formation.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2511.14483/abstract",
+      "figure": "/news/fujimoto-mistymoons.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-10",
+      "person": "Jonah Gannon",
+      "venue": "OJAp",
+      "title": "Analysis of galaxies at the extremes: failed galaxy progenitors in the MAGNETICUM simulations",
+      "blurb": "A toy model tracing observed ultradiffuse galaxies back to z = 2 finds 443 failed galaxy progenitor candidates in MAGNETICUM with flatter, cored dark matter halos, more extended stellar bodies, lower metallicities and higher star formation rates than controls.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2510.04416/abstract",
+      "figure": "/news/gannon-progenitors.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-10",
+      "person": "Will McClymont",
+      "title": "Modelling the nebular emission of galaxies across cosmic time with COLT",
+      "blurb": "A major update to the Monte Carlo radiative transfer code COLT adds thermal equilibrium and level population solvers plus primordial nebular continuum emission, reproducing observed emission-line ratios when applied to the high-redshift THESAN-ZOOM simulations.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2510.13952/abstract",
+      "figure": "/news/mcclymont-colt.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-10",
+      "person": "Seiji Fujimoto",
+      "title": "The ALPINE-CRISTAL-JWST Survey: NIRSpec IFU data processing and spatially-resolved views of chemical enrichment in normal galaxies at z = 4–6",
+      "blurb": "JWST/NIRSpec IFU maps of 18 main-sequence galaxies at z = 4–6 generally show mild central line-ratio enhancements and a nearly flat median metallicity gradient (0.02 ± 0.01 dex per kpc), implying efficient chemical mixing through inflows, outflows, and mergers.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2510.16116/abstract",
+      "figure": "/news/fujimoto-alpinecristal.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-10",
+      "person": "Anna Sajina",
+      "venue": "ApJ",
+      "title": "The role of environment in triggering AGN – evidence for a change at z ∼ 1",
+      "blurb": "At fixed stellar mass in the XMM-LSS field, environment may help trigger IR-selected AGN, which are more common in denser regions at z > 1.2 but in sparser ones below, while X-ray AGN show no significant density dependence.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2510.02193/abstract",
+      "figure": "/news/sajina-environment.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-10",
+      "person": "Seiji Fujimoto",
+      "venue": "ApJ",
+      "title": "The ALPINE-CRISTAL-JWST Survey: stellar and nebular dust attenuation of main-sequence galaxies at z ∼ 4–6",
+      "blurb": "JWST NIRSpec IFU and NIRCam data for 18 main-sequence galaxies at z = 4.4–5.7 give a best-fit stellar-to-nebular dust attenuation ratio of 0.51, so assuming a ratio of 1 underestimates their ionizing photon production efficiency by about 4–46%.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2510.18248/abstract",
+      "figure": "/news/fujimoto-dustratio.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-09",
+      "person": "Aviad Levis",
+      "title": "Revealing fine structure in protoplanetary disks with physics constrained neural fields",
+      "blurb": "Physics-constrained neural fields paired with RadJAX, a differentiable line radiative transfer solver up to 10,000 times faster than conventional ray tracers, recover a narrowing and flattening CO emission surface beyond 400 au in ALMA data of HD 163296.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2509.03623/abstract",
+      "figure": "/news/levis-protoplanetary.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-09",
+      "person": "Qinyue Fei",
+      "venue": "ApJ",
+      "title": "A GLIMPSE of intermediate mass black holes in the epoch of reionization: witnessing the descendants of direct collapse?",
+      "blurb": "Ultra-deep lensed JWST/NIRSpec spectroscopy in Abell S1063 finds eight secure and two tentative broad-line AGNs at 4.5 < z < 7.0 with black hole masses down to about 10⁵·⁵ M☉, where models suggest an excess may come from direct collapse.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2509.20452/abstract",
+      "figure": "/news/fei-imbh.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-09",
+      "person": "Ting Li",
+      "venue": "ApJ",
+      "title": "Chemodynamics of Boötes I with S⁵: revised velocity gradient, dark matter density, and galactic chemical evolution constraints",
+      "blurb": "New S⁵ spectroscopy plus about 15 years of archival data yield 148 members of the ultra-faint dwarf Boötes I, a 4σ velocity gradient aligned with its orbit, and Jeans-model constraints that weakly favor a cusped dark matter profile.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2509.02546/abstract",
+      "figure": "/news/li-bootes.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-09",
+      "person": "Jo Bovy",
+      "venue": "ApJ",
+      "title": "The orbital anisotropy profile of the Gaia-Sausage/Enceladus accretion remnant",
+      "blurb": "Chemically selected APOGEE DR17 and Gaia stars give a Gaia-Sausage/Enceladus anisotropy of β ≈ 0.9 beyond 8 kpc dropping to β ≈ 0.4 at 2 kpc, a decline that raises the inferred mass from 1.5 to 2.29 × 10⁸ M☉.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2509.04557/abstract",
+      "figure": "/news/bovy-anisotropy.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-09",
+      "person": "Anna Sajina",
+      "venue": "ApJ",
+      "title": "Modeling the JWST MIRI counts, insights into the source properties and role of dust-obscured AGN",
+      "blurb": "An updated SIDES simulation using revised galaxy and AGN templates reproduces the observed JWST MIRI number counts, with AGN dominating above about 20 μJy and surveys below 25 arcmin² facing about 30% cosmic-variance uncertainty in bright AGN counts.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2509.15331/abstract",
+      "figure": "/news/sajina-miri.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-09",
+      "person": "Haowen Zhang",
+      "venue": "ApJ",
+      "title": "Impact of cosmic filaments on galaxy morphological evolution and predictions of early cosmic web structure for Roman",
+      "blurb": "IllustrisTNG simulations indicate that higher-density filaments favor extended rotationally supported disks and predict that Roman's planned HLWAS spectroscopic depth would not accurately trace the z = 1 cosmic web, whereas a survey ≥2.5 times deeper would enable proper reconstruction.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2509.23549/abstract",
+      "figure": "/news/zhang-filaments.jpg"
+    },
+    {
+      "type": "paper",
+      "date": "2025-09",
+      "person": "Adam Muzzin",
+      "venue": "ApJ",
+      "title": "The stellar mass and age distributions of star-forming clumps at 0.5 < z < 5 in JWST CANUCS: implications for clump formation and destruction",
+      "blurb": "In CANUCS galaxies at 0.5 < z < 5, the clump stellar mass function slope (α = −2) is flatter in massive hosts (α ≈ −1.6) and flattens as clumps age, a trend interpreted as long-term survival of massive clumps.",
+      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2509.25363/abstract",
+      "figure": "/news/muzzin-clumps.jpg"
     },
     {
       "type": "paper",
@@ -254,8 +712,8 @@
       "type": "paper",
       "date": "2025-12",
       "person": "Seiji Fujimoto",
-      "survey": "VENUS",
       "venue": "A&A",
+      "survey": "VENUS",
       "title": "VENUS: when red meets blue – a multiply imaged Little Red Dot with an apparent blue companion behind the galaxy cluster Abell 383",
       "blurb": "A doubly-imaged Little Red Dot candidate (A383-LRD1) behind the cluster Abell 383, with an apparent compact blue companion, from the JWST VENUS survey.",
       "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.02117/abstract",
