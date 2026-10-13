@@ -486,15 +486,6 @@
     {
       "type": "paper",
       "date": "2025-12",
-      "person": "Ava Polzin",
-      "title": "Picture an Astronomer: best practices for retaining talent in astrophysics",
-      "blurb": "Women in astrophysics face disproportionate attrition at every career stage, and this white paper, drawn from a March 2025 hybrid symposium of more than 200 astronomers, offers retention recommendations that would support a healthier climate for all scientists.",
-      "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.24465/abstract",
-      "figure": "/news/polzin-astronomer.jpg"
-    },
-    {
-      "type": "paper",
-      "date": "2025-12",
       "person": "Christian Jespersen",
       "venue": "ApJ",
       "title": "Exploring cosmic dawn with PANORAMIC II: cosmic variance and galaxy clustering at z ∼ 10",
