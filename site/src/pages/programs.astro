@@ -21,9 +21,9 @@ const groups = [
     items: [
       { id: 'dunlap-visitor', icon: 'ti-plane', cls: 'blue', title: 'Dunlap Visitor Program', blurb: 'Funded visits hosted by the Dunlap Institute.', body: 'The Dunlap Institute hosts researchers for short and longer stays. Northern Light members can co-host visitors through this program.', link: '/visitors#dunlap' },
       { id: 'cita-visitor', icon: 'ti-plane', cls: 'teal', title: 'CITA Visitor Program', blurb: 'Visits in theoretical astrophysics.', body: 'CITA hosts visiting scientists in theoretical astrophysics, including long-term visitors.', link: '/visitors#cita' },
-      { id: 'cita-mou', icon: 'ti-file-text', cls: 'violet', title: 'CITA Memorandum of Understanding', blurb: 'Exchange visits with partner institutions.', body: 'CITA’s agreements (MoUs) with partner institutions support visitor exchanges and give members established routes to host international collaborators.', link: 'https://www.cita.utoronto.ca/opportunities/mou-summaries/' },
-      { id: 'mitacs-globalink', icon: 'ti-world', cls: 'teal', title: 'Mitacs Globalink', blurb: 'Funded research stays in Canada for international researchers.', body: 'Mitacs Globalink funds researchers from abroad at Canadian universities, including U of T and York. The Globalink Research Award supports graduate students and postdoctoral fellows for research projects of 12 to 48 weeks under joint home and host supervision (CA$6,000 per 12 to 24 week unit). The Globalink Research Internship brings international undergraduates for 12-week summer projects. Northern Light members can host visitors through these programs.', link: 'https://www.mitacs.ca/our-programs/globalink-research-award/' },
-      { id: 'aurora-visitor', icon: 'ti-plane', cls: 'amber', title: 'Northern Light Visitor Program', blurb: 'The initiative’s own visitor program, in preparation.', badge: 'Coming soon', body: 'Northern Light is preparing its own visitor program. Terms will be announced here.' },
+      { id: 'cita-mou', icon: 'ti-file-text', cls: 'violet', title: 'CITA Memorandum of Understanding', blurb: 'Exchange visits with partner institutions.', body: 'CITA’s agreements (MoUs) with partner institutions support visitor exchanges and give members established routes to host international collaborators.', link: '/visitors#mou' },
+      { id: 'mitacs-globalink', icon: 'ti-world', cls: 'teal', title: 'Mitacs Globalink', blurb: 'Funded research stays in Canada for international researchers.', body: 'Mitacs Globalink funds researchers from abroad at Canadian universities, including U of T and York. The Globalink Research Award supports graduate students and postdoctoral fellows for research projects of 12 to 48 weeks under joint home and host supervision (CA$6,000 per 12 to 24 week unit). The Globalink Research Internship brings international undergraduates for 12-week summer projects. Northern Light members can host visitors through these programs.', link: '/visitors#mitacs' },
+      { id: 'aurora-visitor', icon: 'ti-plane', cls: 'amber', title: 'Northern Light Visitor Program', blurb: 'The initiative’s own visitor program, in preparation.', badge: 'Coming soon', body: 'Northern Light is preparing its own visitor program. Terms will be announced here.', link: '/visitors#northernlight', linkText: 'Details' },
     ],
   },
   {
@@ -86,7 +86,7 @@ const groups = [
                     </>
                   )}
                   {it.link && (it.link.startsWith('/')
-                    ? <a class="link-more" href={it.link}>How to arrange a visit <i class="ti ti-arrow-right"></i></a>
+                    ? <a class="link-more" href={it.link}>{it.linkText || 'How to arrange a visit'} <i class="ti ti-arrow-right"></i></a>
                     : <a class="link-more" href={it.link} target="_blank" rel="noopener">Learn more <i class="ti ti-arrow-right"></i></a>)}
                 </div>
               </details>
