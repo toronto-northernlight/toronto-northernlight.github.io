@@ -51,7 +51,7 @@ Done (verified):
 - `src/data/news.json`: four recent member preprints with arXiv links, each verified to resolve.
 - `src/data/collaborators.json`: a 14-city draft network based on members' collaborations.
 - `src/data/fellowships.json`: from the vision doc; verified links.
-- Contact: interim `seiji.fujimoto@utoronto.ca` (in `Footer.astro` and `programs.astro`). Switch to an initiative address once a domain is registered.
+- Contact: the coordinators' Google Group, set once in `src/components/Email.astro` and used in `Footer.astro` and `programs.astro`. The page shows `name [at] domain` and a script adds the mailto, so the plain address is not in the static HTML.
 - Visitor program: concrete pilot terms (draft, pending Dunlap Blue-Sky funding) on `programs.astro`.
 
 Still to do:

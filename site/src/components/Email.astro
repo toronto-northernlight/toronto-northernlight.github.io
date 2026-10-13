@@ -1,0 +1,12 @@
+---
+// The plain address never appears in the static HTML; the mailto is assembled in the browser.
+const user = 'toronto-northernlight';
+const domain = 'googlegroups.com';
+---
+<a class="obf-mail" data-u={user} data-d={domain} href="/programs#join"><slot>{user} [at] {domain}</slot></a>
+
+<script>
+  document.querySelectorAll<HTMLAnchorElement>('a.obf-mail').forEach((a) => {
+    a.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d;
+  });
+</script>
