@@ -11,12 +11,12 @@ const pillarMeta = {
 };
 const initials = (name) => name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
 ---
-<Base title="People — Northern Light Initiative" description="Coordinators, faculty, postdoctoral fellows, and graduate students of the Northern Light Initiative, across the University of Toronto and York University.">
+<Base title="People — Northern Light Initiative" description="Coordinators, faculty, postdoctoral fellows, graduate students, and visitors of the Northern Light Initiative, across the University of Toronto and York University.">
   <section class="page-hero">
     <div class="wrap">
       <div class="kicker" style="color:#84e6ca;">People</div>
       <h1>A cross-institutional team</h1>
-      <p>Coordinators, faculty, postdoctoral fellows, and graduate students across the University of Toronto and York University, spanning observation, theory, and data science.</p>
+      <p>Coordinators, faculty, postdoctoral fellows, graduate students, and visitors across the University of Toronto and York University, spanning observation, theory, and data science.</p>
     </div>
   </section>
 
@@ -43,6 +43,7 @@ const initials = (name) => name.split(/\s+/).filter(Boolean).slice(0, 2).map((w)
                   <span class="pbody">
                     <span class="pname">{m.name}{hasLink && (<i class="ti ti-external-link" style="font-size:12px; color:var(--ink-3)"></i>)}</span>
                     <span class="prole">{m.affil}</span>
+                    {m.period && (<span class="psup">Visiting {m.period}</span>)}
                     {m.supervisors && (<span class="psup">Supervised by {m.supervisors}</span>)}
                     {m.focus && (<span class="pfocus">{m.focus}</span>)}
                     {tags.length > 0 && (

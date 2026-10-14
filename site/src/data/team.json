@@ -373,6 +373,23 @@
           "photo": "/people/lzhang.jpg"
         }
       ]
+    },
+    {
+      "id": "visitors",
+      "title": "Visitors",
+      "blurb": "Students and researchers from other institutions who are visiting U of T or York and collaborate through the initiative.",
+      "members": [
+        {
+          "name": "Lais Borbolato",
+          "affil": "York University and Universidade de São Paulo",
+          "period": "Sep 2026 – Aug 2027",
+          "supervisors": "Adam Muzzin",
+          "pillar": "observation",
+          "focus": "Galactic disk chemodynamics and Milky Way progenitors at high redshift.",
+          "link": "https://laborbolato.github.io/",
+          "photo": "/people/borbolato.jpg"
+        }
+      ]
     }
   ]
 }
