@@ -1,7 +1,8 @@
 """Find arXiv papers where an Aurora member is first or second author, plus possible
 VENUS / MINERVA survey papers, inside a date window. Deterministic, no LLM.
-Graduate students (the "students" tier of team.json) count only as first author, and
-only when one of their supervisors is also on the author list (student_supervisors()).
+Graduate students and visitors (the "students" and "visitors" tiers of team.json) count only
+as first author, and only when one of their supervisors is also on the author list
+(student_supervisors()).
 
 Two independent routes, because each one misses papers the other finds:
   A. arXiv export API by surname only. Server-side name matching is unreliable:
@@ -27,6 +28,7 @@ import urllib.parse
 import urllib.request
 
 UA = {"User-Agent": "northernlight-news-sweep/1.2 (+https://toronto-northernlight.github.io)"}
+SUPERVISED_TIERS = ("students", "visitors")  # tiers held to the first-author + supervisor rule
 
 # arXiv given-name variants that differ from team.json, and canonical middle initials.
 # Add new members here when their arXiv name differs from the website name.
@@ -84,11 +86,11 @@ def member_table(names):
 
 
 def student_supervisors(team):
-    """{student name: [supervisor names]} from the "students" tier. The field may be a string
+    """{name: [supervisor names]} for the SUPERVISED_TIERS members. The field may be a string
     ("A and B", "A, B & C", "A; B", "A/B") or a list; titles and notes in parentheses are dropped."""
     out = {}
     for t in team["tiers"]:
-        if t.get("id") != "students":
+        if t.get("id") not in SUPERVISED_TIERS:
             continue
         for m in t.get("members", []):
             raw = m.get("supervisors") or []

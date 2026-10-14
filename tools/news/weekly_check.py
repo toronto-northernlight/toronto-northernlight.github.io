@@ -3,8 +3,8 @@
 Runs from launchd every Monday 07:30 Toronto time. Deterministic, no LLM:
   1. read team.json and news.json from the public repo (raw.githubusercontent.com)
   2. search arXiv for member first/second-author papers and VENUS/MINERVA papers in
-     [last successful run - 35 days, today] (sweep.py, two routes). Graduate students count
-     only as first author with a supervisor on the author list
+     [last successful run - 35 days, today] (sweep.py, two routes). Graduate students and
+     visitors count only as first author with a supervisor on the author list
   3. drop papers already listed or already judged (state.json)
   4. audit the existing cards: title vs arXiv, venue now published (arXiv journal_ref,
      Crossref), card person is a member and author 1/2 (a student: author 1 with a supervisor
@@ -344,7 +344,7 @@ def run(args, out_dir):
         students = sw.student_supervisors(team)
     except Exception as e:  # a malformed students tier must not stop the whole check
         pre_errors.append({"stage": "students", "error": f"could not read the students tier, students skipped this week: {e}"[:300]})
-        skip = {m["name"] for t in team["tiers"] if t.get("id") == "students" for m in t.get("members", [])}
+        skip = {m["name"] for t in team["tiers"] if t.get("id") in sw.SUPERVISED_TIERS for m in t.get("members", [])}
         members = [m for m in members if m not in skip]
         students = {}
     for name, sups in students.items():
